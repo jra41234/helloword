@@ -58,13 +58,13 @@
     <repository>
         <id>My_Artifactory_Releases</id>
         <name>My_Artifactory-releases</name>
-        <url>http://localhost:8081/service/rest/repository/browse/maven-releases/</url>
+        <url>http://localhost:8081/repository/SAMPLE-REL/</url>
     </repository>
     
     <snapshotRepository>
         <id>My_Artifactory_Snapshots</id>
         <name>My_Artifactory-snapshots</name>
-        <url>http://localhost:8081/service/rest/repository/browse/maven-snapshots/</url>
+        <url>http://localhost:8081/repository/SAMPLE-REL/</url>
     </snapshotRepository>
 
 </distributionManagement>
