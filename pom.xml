@@ -56,14 +56,14 @@
   
   <distributionManagement>
     <repository>
-        <id>My_Artifactory_Releases</id>
-        <name>My_Artifactory-releases</name>
+        <id>deployment</id>
+        <name>Internal Releases</name>
         <url>http://localhost:8081/repository/SAMPLE-REL/</url>
     </repository>
     
     <snapshotRepository>
-        <id>My_Artifactory_Snapshots</id>
-        <name>My_Artifactory-snapshots</name>
+        <id>deployment</id>
+        <name>Internal Snapshot Releases</name>
         <url>http://localhost:8081/repository/SAMPLE-REL/</url>
     </snapshotRepository>
 
